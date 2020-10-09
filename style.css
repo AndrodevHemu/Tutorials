@@ -33,6 +33,11 @@ main {
   padding: 1rem;
 }
 
+a:hover { 
+  text-decoration: none; 
+  color:rgb(253, 77, 77);
+} 
+
 ol.gradient-list {
   counter-reset: gradient-counter;
   list-style: none;
@@ -50,6 +55,11 @@ ol.gradient-list {
   padding: 1rem 1rem 30px 3rem;
   position: relative;
   box-shadow: rgba(83, 83, 83, 0.308) 0px 2px 10px;
+}
+
+.tutorials:hover{
+  margin-left:20px;
+  transition-duration: 0.5s;
 }
 
 .tutorials::before,
